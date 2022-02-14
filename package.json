@@ -1,0 +1,25 @@
+{
+  "name": "starter-test-cafe",
+  "version": "1.0.0",
+  "description": "Web Test automation framework based on TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf screenshots && rimraf junit-results",
+    "test": "npm run clean && testcafe --config-file ./config/.testcaferc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlyautomatiza/starter-test-cafe.git"
+  },
+  "author": "CharlyAutomatiza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlyautomatiza/starter-test-cafe/issues"
+  },
+  "homepage": "https://github.com/charlyautomatiza/starter-test-cafe#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "testcafe": "^1.18.3",
+    "typescript": "^4.5.5"
+  }
+}
